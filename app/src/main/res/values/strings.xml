@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">APKEditorTest</string>
+    <string name="test_string">Android escape and quotation test
+\n"Tab\tulated 1"
+\n"Tab	ulated 2"
+\nTab\tulated 3
+\nTab	ulated 4
+\nBackslash (\\) (\)
+\nQuestion\?
+\n"\"Double\"" \"quotes\"
+\n\'Single\' "'quote'" "\'test\'"
+\nmail\@example.com
+\nUnicode: \u00A9
+\n"Whitespace    Preserved"
+\nWhitespace    collapsed
+\n"Newlines
+
+preserved"
+\nNewlines\n\nPreserved
+\nNewlines
+
+collapsed
+</string>
+    <string name="singleq">\'single\'</string>
+    <string name="doubleq">"\"double\""</string>
+    <string name="tab1">"Tab	ulated"</string>
+    <string name="backslash">(\\) (\)</string>
+</resources>
