@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">APKEditorTest</string>
-    <string name="test_string">Android escape and quotation test
-\n"Tab\tulated 1"
-\n"Tab	ulated 2"
-\nTab\tulated 3
-\nTab	ulated 4
+    <string name="test_string"><b>Android test for quotation, backslash escape, and whitespace collapsing</b>
+<font color="#FF0000" size="30">Hello World</font>
+\n"Tab\t\t\t\tulated 1"
+\n"Tab				ulated 2"
+\nTab\t\t\t\tulated 3
+\nTab				ulated 4
 \nBackslash (\\) (\)
 \nQuestion\?
 \n"\"Double\"" \"quotes\"
@@ -21,8 +22,4 @@ preserved"
 
 collapsed
 </string>
-    <string name="singleq">\'single\'</string>
-    <string name="doubleq">"\"double\""</string>
-    <string name="tab1">"Tab	ulated"</string>
-    <string name="backslash">(\\) (\)</string>
 </resources>
